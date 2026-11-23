@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #1f2937;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .calculadora {
+            background: #374151;
+            padding: 25px;
+            border-radius: 12px;
+            width: 350px;
+            text-align: center;
+        }
+
+        input {
+            width: 90%;
+            padding: 10px;
+            margin: 10px 0;
+        }
+
+        button {
+            margin: 5px;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="calculadora">
+
+        <h1>Calculadora</h1>
+
+        <input type="number" min="-99999" max="99999" placeholder="Primer número">
+
+        <input type="number" min="-99999" max="99999" placeholder="Segundo número">
+
+        <br>
+
+        <button>Suma</button>
+        <button>Resta</button>
+        <button>Multiplicación</button>
+        <button>Potencia</button>
+
+    </div>
+
+</body>
+
+</html>
